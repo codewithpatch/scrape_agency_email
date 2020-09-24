@@ -4,9 +4,10 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
+from pandas import DataFrame
 
 
 class ScrapeAgencyEmailItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    agency_df: DataFrame = scrapy.Field()
