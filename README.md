@@ -1,7 +1,7 @@
 # scrape_agency_email
 
 ## Description
-This project goals to scrape agency email from a list of agency names.
+This project goals to scrape agency email from a list of agency names from www.healthdirect.gov.au.
 
 ## Dependencies
 1. Install the following dependencies from requirements.txt
