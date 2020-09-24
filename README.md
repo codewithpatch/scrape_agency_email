@@ -14,8 +14,11 @@ This project goals to scrape agency email from a list of agency names from www.h
 4. Make sure to download the chromedriver version corresponding to your OS(Mac, Windows, Linux)
 
 ## Logging to File
-1. In `settings.py`, uncomment line 21 to output your logs in the log directory.
-2. LOG Directory -> `scrape_agency_email/logs/`
+1. If you want to print LOGS to file.
+    1. In `settings.py`, uncomment line 21 to output your logs in the log directory.
+    2. LOG Directory -> `scrape_agency_email/logs/`
+    
+2. If you just want to keep logging on console, then just leave line 21 as comment.
 
 ## Output file
 1. CSV  -> `scrape_agency_email/output/Agencies3.csv`
